@@ -1,0 +1,19 @@
+# This repository tracks ONLY the website (kwikfatcut-site/).
+# Everything below is local working material — never commit it.
+
+# Client emails and attachments
+*.eml
+*.pdf
+*.docx
+
+# Large / unrelated binaries (this is what broke the push: 464 MB MetaTrader zip)
+*.zip
+MetaTrader5.pkg.zip
+
+# OS / editor cruft
+.DS_Store
+
+# Local working folders (not for deploy)
+/index.html
+/live-mirror/
+/seo-deliverables/

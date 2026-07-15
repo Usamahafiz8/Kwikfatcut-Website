@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects. Fixes known legacy 404 URLs Google still has on file.
+# Add any additional 404/5xx paths from Search Console (Indexing > Pages) below.
+/blog          /learn.html    301
+/blog/*        /learn.html    301
+/learn-hub     /learn.html    301
+/learn-hub/*   /learn.html    301
