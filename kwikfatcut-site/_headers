@@ -1,0 +1,17 @@
+# Long-lived caching for immutable static assets (fonts, images, icons).
+# HTML is intentionally excluded so content updates go live immediately.
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.ico
+  Cache-Control: public, max-age=604800
