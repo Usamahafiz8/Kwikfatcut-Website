@@ -2,10 +2,10 @@
 # Verified against Search Console "Not found (404)" and "Server error (5xx)" reports, 17 Jul 2026.
 
 # --- "Not found (404)" group — both confirmed fixed & live ---
-/blog             /learn.html    301
-/blog/*           /learn.html    301
-/learn-hub        /learn.html    301
-/learn-hub/*      /learn.html    301
+/blog             /learn    301
+/blog/*           /learn    301
+/learn-hub        /learn    301
+/learn-hub/*      /learn    301
 
 # --- Dead CTA URL from the old site (listed under 5xx in GSC, now returns 404) ---
 /start-free       /              301

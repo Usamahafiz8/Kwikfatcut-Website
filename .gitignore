@@ -17,3 +17,7 @@ MetaTrader5.pkg.zip
 /index.html
 /live-mirror/
 /seo-deliverables/
+
+# local backups (not for deploy)
+/kwikfatcut-site-PREV/
+/kwikfatcut-site-BACKUP/
